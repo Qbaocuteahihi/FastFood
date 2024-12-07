@@ -1,0 +1,143 @@
+﻿@{
+    ViewData["Title"] = "Giỏ hàng";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <style>
+        /* CSS Nhúng */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .table-cart {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background-color: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+            .table-cart th, .table-cart td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+
+            .table-cart th {
+                background-color: #f2f2f2;
+            }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff; /* Màu nền */
+            color: white; /* Màu chữ */
+            text-decoration: none; /* Không gạch chân */
+            border-radius: 5px; /* Bo góc */
+            margin-top: 10px; /* Khoảng cách trên */
+            border: none; /* Không viền */
+            cursor: pointer; /* Con trỏ chuột */
+            transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+        }
+
+            .btn:hover {
+                background-color: #0056b3; /* Màu nền khi hover */
+            }
+
+        .payment-options {
+            margin-top: 20px;
+        }
+
+        .payment-details {
+            display: none; /* Ẩn khung nhập thông tin ban đầu */
+            margin-top: 20px;
+        }
+
+        .momo-image {
+            max-width: 100%; /* Đảm bảo ảnh không vượt quá chiều rộng của khung chứa */
+            max-height: 300px; /* Giới hạn chiều cao của ảnh */
+            object-fit: cover; /* Đảm bảo ảnh không bị méo */
+        }
+    </style>
+    <script>
+        function confirmPayment(paymentMethod) {
+            const confirmation = confirm(`Bạn có chắc chắn muốn thanh toán bằng ${paymentMethod} không?`);
+            if (confirmation) {
+                if (paymentMethod === 'Chuyển khoản') {
+                    document.getElementById('transfer-details').style.display = 'block'; // Hiện ảnh MoMo
+                } else {
+                    document.getElementById('checkoutForm').submit(); // Gửi form với phương thức thanh toán là tiền mặt
+                }
+            }
+        }
+
+        function confirmTransfer() {
+            const confirmation = confirm("Bạn đã chuyển khoản chưa? Bạn có chắc chắn muốn xác nhận không?");
+            if (confirmation) {
+                document.getElementById('checkoutForm').submit(); // Gửi form
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Giỏ hàng của bạn</h2>
+    @if (Model.GetItems().Count == 0)
+    {
+        <p>Giỏ hàng của bạn đang trống.</p>
+    }
+    else
+    {
+        <table class="table-cart">
+            <thead>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Giá (VND)</th>
+                    <th>Số lượng</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.GetItems())
+                {
+                    <tr>
+                        <td>@item.Product.Name</td>
+                        <td>@((item.Product.Price).ToString("N0")) VND</td>
+                        <td>@item.Quantity</td>
+                        <td>
+                            <form asp-controller="Cart" asp-action="RemoveFromCart" method="post">
+                                <input type="hidden" name="productId" value="@item.Product.Id" />
+                                <button type="submit" class="btn">Xóa</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h3>Tổng tiền: @((Model.GetTotal()).ToString("N0")) VND</h3>
+
+        <div class="payment-options">
+            <h3>Chọn phương thức thanh toán:</h3>
+            <button class="btn" onclick="confirmPayment('Tiền mặt')">Tiền mặt</button>
+            <button class="btn" onclick="confirmPayment('Chuyển khoản')">Chuyển khoản</button>
+        </div>
+
+        <div id="transfer-details" class="payment-details">
+            <h4>Thanh toán bằng chuyển khoản</h4>
+            <img src="~/images/momo.jpg" alt="MoMo" class="momo-image" asp-append-version="true" />
+            <button class="btn" onclick="confirmTransfer()">Xác nhận đã chuyển khoản</button>
+        </div>
+
+        <form id="checkoutForm" asp-controller="Cart" asp-action="Checkout" method="post" style="display:none;">
+            <input type="hidden" name="paymentMethod" id="paymentMethod" />
+        </form>
+    }
+</body>
+</html>

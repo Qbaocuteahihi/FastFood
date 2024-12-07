@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PhatTrienWeb\\Project\\FastFood\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\views\\cart\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\views\\cart\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\views\\home\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\views\\home\\productdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\views\\home\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\views\\home\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\models\\fastfoodcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\models\\fastfoodcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\extensions\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|d:\\phattrienweb\\project\\fastfood\\fastfood\\fastfood.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FCF33EE6-24E5-4308-8CD6-3368C170AC5F}|FastFood\\FastFood.csproj|solutionrelative:fastfood\\fastfood.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FastFood\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FastFood\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:52:47.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Home\\Category.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Views\\Home\\Category.cshtml",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Home\\Category.cshtml",
+              "RelativeToolTip": "FastFood\\Views\\Home\\Category.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAGgAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T13:35:41.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "FastFood\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T13:53:01.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfirmPayment.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Cart\\ConfirmPayment.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Views\\Cart\\ConfirmPayment.cshtml",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Cart\\ConfirmPayment.cshtml",
+              "RelativeToolTip": "FastFood\\Views\\Cart\\ConfirmPayment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T06:51:11.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "FastFood\\Models\\ShoppingCart.cs",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "FastFood\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwCwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:14:44.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\appsettings.json",
+              "RelativeDocumentMoniker": "FastFood\\appsettings.json",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\appsettings.json",
+              "RelativeToolTip": "FastFood\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-02T15:29:27.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "FastFood\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Controllers\\CartController.cs",
+              "RelativeToolTip": "FastFood\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAgwGgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:48:00.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Program.cs",
+              "RelativeDocumentMoniker": "FastFood\\Program.cs",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Program.cs",
+              "RelativeToolTip": "FastFood\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:24:45.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FastFood\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAlwCAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T16:51:57.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "FastFood\\Models\\Product.cs",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Models\\Product.cs",
+              "RelativeToolTip": "FastFood\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:08:38.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDetail.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Home\\ProductDetail.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Views\\Home\\ProductDetail.cshtml",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Home\\ProductDetail.cshtml",
+              "RelativeToolTip": "FastFood\\Views\\Home\\ProductDetail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T13:43:09.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FastFood\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FastFood\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T12:53:13.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Services.cs",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Services\\Services.cs",
+              "RelativeDocumentMoniker": "FastFood\\Services\\Services.cs",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Services\\Services.cs",
+              "RelativeToolTip": "FastFood\\Services\\Services.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:10:51.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FastFoodContext.cs",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Models\\FastFoodContext.cs",
+              "RelativeDocumentMoniker": "FastFood\\Models\\FastFoodContext.cs",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Models\\FastFoodContext.cs",
+              "RelativeToolTip": "FastFood\\Models\\FastFoodContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:53:44.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "FastFood\\Models\\CartItem.cs",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Models\\CartItem.cs",
+              "RelativeToolTip": "FastFood\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:13:59.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Extensions\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "FastFood\\Extensions\\SessionExtensions.cs",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\Extensions\\SessionExtensions.cs",
+              "RelativeToolTip": "FastFood\\Extensions\\SessionExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T14:03:14.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FastFood\\appsettings.Development.json",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\appsettings.Development.json",
+              "RelativeToolTip": "FastFood\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-02T14:22:17.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FastFood.csproj",
+              "DocumentMoniker": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\FastFood.csproj",
+              "RelativeDocumentMoniker": "FastFood\\FastFood.csproj",
+              "ToolTip": "D:\\PhatTrienWeb\\Project\\FastFood\\FastFood\\FastFood.csproj",
+              "RelativeToolTip": "FastFood\\FastFood.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-02T09:20:11.252Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

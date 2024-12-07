@@ -1,0 +1,26 @@
+﻿@model FastFood.Models.Product
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@Model.Name</title>
+</head>
+<body>
+    <h1>@Model.Name</h1>
+    <p>@Model.Description</p>
+    <p>Giá: @Model.Price</p>
+    <p>Số lượng tồn kho: @Model.Stock</p>
+    <p>Danh mục: @Model.Category</p>
+    <img src="@Model.ImageUrl" alt="@Model.Name" width="300" />
+
+    <form method="post" asp-controller="Cart" asp-action="AddToCart">
+        <input type="hidden" name="productId" value="@Model.Id" />
+        <label for="quantity">Số lượng:</label>
+        <input type="number" name="quantity" min="1" value="1" required />
+        <button type="submit">Thêm vào giỏ hàng</button>
+    </form>
+
+    <br />
+    <a href="@Url.Action("Index", "Home")">Quay lại</a>
+</body>
+</html>
